@@ -24,6 +24,14 @@ def MSEStep(X, y, W, b, learn_rate = 0.005):
     """
     
     # Fill in code
+    # compute errors
+    
+    y_pred = np.matmul(X, W) + b
+    error = y - y_pred
+    
+    # compute steps
+    W_new = W + learn_rate * np.matmul(error, X)
+    b_new = b + learn_rate * error.sum()
     
     return W_new, b_new
 
@@ -83,3 +91,24 @@ if __name__ == "__main__":
         plt.plot([X_min, X_max],[X_min * W + b, X_max * W + b], color = color)
     plt.scatter(X, y, zorder = 3)
     plt.show()
+----------------------------------------------------
+
+ #Explanation:
+
+ #here the objective is to find optimal values for W, b--- ALWAYS, THIS IS THE SCOPE! TO MOVE THE LINE BETTER, BASED ON SLOE AND POINT OF INTERCEPT!
+ 
+ #W : predictor feature coefficients, this should be w1
+ #b : regression function intercept, this should be w2
+ #X : array of predictor features, this should be x
+ #y : array of outcome values, this should be y
+
+ #y' = y_pred = w1*x + w2
+
+****
+
+#So, how to find the optimal values of W, b....
+
+#b_new = b - (learning_rate * ((1/m) * np.sum(Y_pred - Y))) 
+#W_new = W - (learning_rate * ((1/m) * np.sum((Y_pred - Y) * X)))
+#where
+#Y_pred = w*x + b
