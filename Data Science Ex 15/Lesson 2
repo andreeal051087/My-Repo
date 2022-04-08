@@ -26,8 +26,8 @@ def MSEStep(X, y, W, b, learn_rate = 0.005):
     # Fill in code
     # compute errors
     
-    y_pred = np.matmul(X, W) + b
-    error = y - y_pred
+    y_pred = np.matmul(X, W) + b  # this means: predictions (y') = x from our list of points * W (w1) + b (w2)
+    error = y - y_pred # this means: our error: y-y' : the distance to the prediction on the line of the point
     
     # compute steps
     W_new = W + learn_rate * np.matmul(error, X)
@@ -56,8 +56,8 @@ def miniBatchGD(X, y, batch_size = 20, learn_rate = 0.005, num_iter = 25):
       descent procedure
     """
     n_points = X.shape[0]
-    W = np.zeros(X.shape[1]) # coefficients
-    b = 0 # intercept
+    W = np.zeros(X.shape[1]) # coefficients w1
+    b = 0 # intercept w2
     
     # run iterations
     regression_coef = [np.hstack((W,b))]
