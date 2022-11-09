@@ -16,6 +16,9 @@
 
 #requirements.txt
 
+#ETL Pipeline Preparation.ipynb
+#ML Pipeline Preparation.ipynb
+
 #explanation of the files in the package
 
 #process_data.py
@@ -42,4 +45,8 @@
 #requirements.txt
 """File containing all package requirements necessary for running this app."""
 
+#ETL Pipeline Preparation.ipynb
+"""Jupyter notebook containing the data processing code."""
 
+#ML Pipeline Preparation.ipynb
+"""Jupyter notebook containing the ML preparation code."""
