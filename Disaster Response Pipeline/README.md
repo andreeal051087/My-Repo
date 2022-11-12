@@ -57,35 +57,35 @@
 
 ##
 
-#### 1. ETL Pipeline Preparation.ipynb
-###### Jupyter notebook containing the data processing code.
-#### 2. process_data.py
-###### File containing the functions for cleaning up the data and creating an sqlite DB along with a table
-#### 3. DisasterResponse.db
-###### SQLITE Database containing the message table cleaned and pre-processed for the messages and their categories.
+1. ETL Pipeline Preparation.ipynb
+- Jupyter notebook containing the data processing code.
+2. process_data.py
+- File containing the functions for cleaning up the data and creating an sqlite DB along with a table. Built based on the Python code in the ETL Pipeline Preparation.ipynb.
+3. DisasterResponse.db
+- SQLITE Database containing the message table cleaned and pre-processed for the messages and their categories.
 
 ##
 
-#### 4. disaster_categories.csv
-###### File containing the types of categories each message falls into.
-#### 5. disaster_messages.csv
-###### File containing the actual message data, along with the ids of categories.
+4. disaster_categories.csv
+- File containing the types of categories each message falls into.
+5. disaster_messages.csv
+- File containing the actual message data, along with the ids of categories.
 
 ##
 
-#### 6. ML Pipeline Preparation.ipynb
-###### Jupyter notebook containing the ML preparation code.
-#### 7. train_classifier.py
-###### File containing the functions for training and evaluation the Decision Tree Classifier.
-#### 8. classifier.pkl
-###### PKL File containing the ftrained and evaluated model.
+6. ML Pipeline Preparation.ipynb
+- Jupyter notebook containing the code for the creation of the ML algorithm: training, testing, evaluation.
+7. train_classifier.py
+- File containing the functions for training and evaluation the Decision Tree Classifier. Built based on the Python code in the ML Pipeline Preparation.ipynb.
+8. classifier.pkl
+- PKL File containing the ftrained and evaluated model.
 
 ##
 
-#### 9. run.py
-###### File that runs the application, along with code for the graphs on the page.
+9. run.py
+- File that runs the application, along with code for the graphs on the page.
 
 ##
 
-#### 10. requirements.txt
-###### File containing all package requirements necessary for running this app.
+10. requirements.txt
+- File containing all package requirements necessary for running this app.
