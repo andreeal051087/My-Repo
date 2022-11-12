@@ -64,7 +64,7 @@ File containing the functions for cleaning up the data and creating an sqlite DB
 ### 3. DisasterResponse.db
 SQLITE Database containing the message table cleaned and pre-processed for the messages and their categories.
 
-## --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## -------------------------------------------------------------------------------------------------------------
 
 ### 4. disaster_categories.csv
 File containing the types of categories each message falls into.
