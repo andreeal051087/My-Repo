@@ -29,57 +29,57 @@
 ## Summary of the package:
 
 #### Code used in preprocesisng and preparing the data:
-###### ---> ETL Pipeline Preparation.ipynb (pure Python Notebook)
-###### ---> process_data.py (app file with functions built based on the Python Notebook)
+###### |---> ETL Pipeline Preparation.ipynb (pure Python Notebook)
+###### |---> process_data.py (app file with functions built based on the Python Notebook)
 
 #### FILES containing the raw data:
-###### ---> disaster_categories.csv
-###### ---> disaster_messages.csv
+###### |---> disaster_categories.csv
+###### |---> disaster_messages.csv
 
 #### Output of the data preprocesisng:
-###### ---> DisasterResponse.db
+###### |---> DisasterResponse.db
 
 
 #### Code used in training the model:
-###### ---> ML Pipeline Preparation.ipynb (pure Python Notebook)
-###### ---> train_classifier.py (app file with functions built based on the Python Notebook)
+###### |---> ML Pipeline Preparation.ipynb (pure Python Notebook)
+###### |---> train_classifier.py (app file with functions built based on the Python Notebook)
 
 #### Output of the model train:
-###### ---> classifier.pkl
+###### |---> classifier.pkl
 
 #### Files used to launch app:
-###### ---> run.py
+###### |---> run.py
 
 #### Requirements file:
-###### ---> requirements.txt
+###### |---> requirements.txt
 
 
-#### Explanation of the files in the package
+## Explanation of the files in the package
 
 
-###### ---> ETL Pipeline Preparation.ipynb
+#### ---> ETL Pipeline Preparation.ipynb
 Jupyter notebook containing the data processing code.
-###### ---> process_data.py
+#### ---> process_data.py
 File containing the functions for cleaning up the data and creating an sqlite DB along with a table
-###### ---> DisasterResponse.db
+#### ---> DisasterResponse.db
 SQLITE Database containing the message table cleaned and pre-processed for the messages and their categories.
 
 
-###### ---> disaster_categories.csv
+#### ---> disaster_categories.csv
 File containing the types of categories each message falls into.
-###### ---> disaster_messages.csv
+#### ---> disaster_messages.csv
 File containing the actual message data, along with the ids of categories.
 
 
-###### ---> ML Pipeline Preparation.ipynb
+#### ---> ML Pipeline Preparation.ipynb
 Jupyter notebook containing the ML preparation code.
-###### ---> train_classifier.py
+#### ---> train_classifier.py
 File containing the functions for training and evaluation the Decision Tree Classifier.
-###### ---> classifier.pkl
+#### ---> classifier.pkl
 PKL File containing the ftrained and evaluated model.
 
-###### ---> run.py
+#### ---> run.py
 File that runs the application, along with code for the graphs on the page.
 
-###### ---> requirements.txt
+#### ---> requirements.txt
 File containing all package requirements necessary for running this app.
