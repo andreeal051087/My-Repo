@@ -78,7 +78,7 @@ Jupyter notebook containing the code for the creation of the ML algorithm: train
 ### 7. train_classifier.py
 File containing the functions for training and evaluation the Decision Tree Classifier. Built based on the Python code in the ML Pipeline Preparation.ipynb.
 ### 8. classifier.pkl
-PKL File containing the ftrained and evaluated model.
+PKL File containing the trained and evaluated model.
 
 ## -------------------------------------------------------------------------------------------------------
 
