@@ -2,9 +2,9 @@
 
 ## Short Summary of the project and its objectives:
 
-Project contains a classifier used for categorizing messages with regards to disaster situations.
-The project has a significant importance when it comes to its utility, as the impact on helping classifying the distater messages will ensure a faster response from the authorities and maybe to more lives saved, in the end within the community.
-In case of a disaster, the response time of authorities is critical. This project helps exactly in this regard.
+- Project contains a classifier used for categorizing messages with regards to disaster situations.
+- The project has a significant importance when it comes to its utility, as the impact on helping classifying the distater messages will ensure a faster response from the authorities and maybe to more lives saved, in the end within the community.
+- In case of a disaster, the response time of authorities is critical. This project helps exactly in this regard.
 
 
 ##  Instructions on how to prepare the data and launch the app:
@@ -56,31 +56,36 @@ In case of a disaster, the response time of authorities is critical. This projec
 ## Explanation of the files in the package
 
 ##
+
 #### 1. ETL Pipeline Preparation.ipynb
-###### |---> Jupyter notebook containing the data processing code.
+###### Jupyter notebook containing the data processing code.
 #### 2. process_data.py
-###### |---> File containing the functions for cleaning up the data and creating an sqlite DB along with a table
+###### File containing the functions for cleaning up the data and creating an sqlite DB along with a table
 #### 3. DisasterResponse.db
-###### |---> SQLITE Database containing the message table cleaned and pre-processed for the messages and their categories.
+###### SQLITE Database containing the message table cleaned and pre-processed for the messages and their categories.
 
 ##
+
 #### 4. disaster_categories.csv
-###### |---> File containing the types of categories each message falls into.
+###### File containing the types of categories each message falls into.
 #### 5. disaster_messages.csv
-###### |---> File containing the actual message data, along with the ids of categories.
+###### File containing the actual message data, along with the ids of categories.
 
 ##
+
 #### 6. ML Pipeline Preparation.ipynb
-###### |---> Jupyter notebook containing the ML preparation code.
+###### Jupyter notebook containing the ML preparation code.
 #### 7. train_classifier.py
-###### |---> File containing the functions for training and evaluation the Decision Tree Classifier.
+###### File containing the functions for training and evaluation the Decision Tree Classifier.
 #### 8. classifier.pkl
-###### |---> PKL File containing the ftrained and evaluated model.
+###### PKL File containing the ftrained and evaluated model.
 
 ##
+
 #### 9. run.py
-###### |---> File that runs the application, along with code for the graphs on the page.
+###### File that runs the application, along with code for the graphs on the page.
 
 ##
+
 #### 10. requirements.txt
-###### |---> File containing all package requirements necessary for running this app.
+###### File containing all package requirements necessary for running this app.
