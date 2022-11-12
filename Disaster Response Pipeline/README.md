@@ -2,10 +2,9 @@
 
 ## Short Summary of the project and its objectives:
 
-###### Project contains a classifier used for categorizing messages with regards to disaster situations.
-###### The project has a significant importance when it comes to its utility, as the impact on helping classifying the distater messages will ensure a faster response from the authorities and maybe to more lives saved, in the end within the community.
-###### In case of a disaster, the response time of authorities is critical.
-###### This project helps exactly in this regard.
+Project contains a classifier used for categorizing messages with regards to disaster situations.
+The project has a significant importance when it comes to its utility, as the impact on helping classifying the distater messages will ensure a faster response from the authorities and maybe to more lives saved, in the end within the community.
+In case of a disaster, the response time of authorities is critical. This project helps exactly in this regard.
 
 
 ##  Instructions on how to prepare the data and launch the app:
