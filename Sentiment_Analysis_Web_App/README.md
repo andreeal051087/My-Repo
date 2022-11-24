@@ -59,6 +59,6 @@ Please see the [README](https://github.com/udacity/sagemaker-deployment/tree/mas
 - |---> SentimentAnalysisLupascu URL https://8ran5jdojl.execute-api.us-east-1.amazonaws.com/PROD
 
 #### DEPLOYMENT ENDPOINT 
-- |---> could not deploy due to CUDA library error.
+- |---> sagemaker-pytorch-2022-11-17-23-32-11-974
 
 
