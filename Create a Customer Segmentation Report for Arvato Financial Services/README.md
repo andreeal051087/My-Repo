@@ -1,6 +1,8 @@
 
 # Project Definition
 
+Blog source can be found [here](https://andreealupascu0510.wixsite.com/customersegmentation/post/identifying-customer-segments-arvato-use-case)
+
 Through this project I am trying to determine which what type of customer typology we are able to determine form the data provided by the mail-order company, in order to establish the most likey and unlikely people to purchase their products.
 
 I have personally chosen this project due to the fact that I find it very interesting and has a real-life application in any industry one chooses (or ends up) working in.
