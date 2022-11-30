@@ -25,6 +25,18 @@ We need to use models that would learn form previous weaker iterations..
 I will describe however the metics used in the next parts of the project.
 
 
+# Files in this folder:
+
+### --->Arvato Project Workbook.ipynb : notebook containing project;
+
+### --->terms_completed.md: terms and conditions that I have accepted, stating I have deleted any copy on the local machine or on personal or work directories of the data;
+
+### --->requirements.txt: a file containing all libraries that were used for the project;
+
+### --->lupascu_gradientboost_submission.csv : Kaggle submission which I was not able to submit.
+
+
+
 # Project Structure:
 
 ## Part 1: Project Definition
@@ -65,20 +77,7 @@ As mentioned.
 ### Step 4.2: GradientBoosting
 ### Step 4.3: Predicting on TEST data- submission for Kaggle competition
 
-## Part 5: Conclusions
-
-
-
-# Files in this folder:
-
-### --->Arvato Project Workbook.ipynb : notebook containing project;
-
-### --->terms_completed.md: terms and conditions that I have accepted, stating I have deleted any copy on the local machine or on personal or work directories of the data;
-
-### --->requirements.txt: a file containing all libraries that were used for the project;
-
-### --->lupascu_gradientboost_submission.csv : Kaggle submission which I was not able to submit.
-
+## Part 5: Conclusions: things to improve and hurdles.
 
 ## Part 6: References and Acknowledgements:
 
