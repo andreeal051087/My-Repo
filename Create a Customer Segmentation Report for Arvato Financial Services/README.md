@@ -137,7 +137,7 @@ https://www.wix.com
 
 As well, I would like to also thank:
 
-- Everton Bin  (can be reached at https://www.linkedin.com/in/evertonbin/) who has given me the inspiration on how to create my first ever Blog post.
+- Everton Bin  (can be reached at https://www.linkedin.com/in/evertonbin/) who has given me the inspiration on how to create my first ever Blog post. His blog can be found here: https://towardsdatascience.com/customer-segmentation-arvato-bertelsmann-project-44e73210a1b7
 - Anand Kumpatla (Sr Data Scientist @ Doubleslash Software Solutions Pvt Ltd) for the very good explanation of the correlation matrix explanation and example on https://www.projectpro.io/recipes/drop-out-highly-correlated-features-in-python 
 - Aniruddha Bhandari (Author: Since February 2020 on the https://www.analyticsvidhya.com/blog/author/aniruddha/ site) for AUC-ROC Curve visual explanation and refresher on the calculation
 
