@@ -71,13 +71,13 @@ As mentioned.
 
 # Files in this folder:
 
-Arvato Project Workbook.ipynb : notebook containing project;
+### Arvato Project Workbook.ipynb : notebook containing project;
 
-terms_completed.md: terms and conditions that I have accepted, stating I have deleted any copy on the local machine or on personal or work directories of the data;
+### terms_completed.md: terms and conditions that I have accepted, stating I have deleted any copy on the local machine or on personal or work directories of the data;
 
-requirements.txt: a file containing all libraries that were used for the project;
+### requirements.txt: a file containing all libraries that were used for the project;
 
-lupascu_gradientboost_submission.csv : Kaggle submission which I was not able to submit.
+### lupascu_gradientboost_submission.csv : Kaggle submission which I was not able to submit.
 
 
 ## Part 6: References and Acknowledgements:
