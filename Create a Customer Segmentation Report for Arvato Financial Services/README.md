@@ -86,6 +86,13 @@ Therefore, I have managed to compile a pretty long list of References that helpe
 
 ### List of References is below:
 
+### ---- Resources: ARVATO general population data and customers data, along with training and testing data sets:
+
+### ---- Udacity_AZDIAS_052018.csv: Demographics data for the general population of Germany; 
+### ---- Udacity_CUSTOMERS_052018.csv: Demographics data for customers of a mail-order company; 
+### ---- Udacity_MAILOUT_052018_TRAIN.csv: 
+### ---- Udacity_MAILOUT_052018_TEST.csv
+
 Luckily, the, internet is a vast place filled with resources and other people's shared knowledge- a data -learning wonderful place.
 Therefore, I have managed to compile a pretty long list of References that helped me in creating the project.
 
@@ -140,6 +147,7 @@ https://www.wix.com
 
 As well, I would like to also thank:
 
+- ARVATO IT service management company for providing the data sets to work with for this project: https://www.bertelsmann.com/ 
 - Everton Bin  (can be reached at https://www.linkedin.com/in/evertonbin/) who has given me the inspiration on how to create my first ever Blog post. His blog can be found here: https://towardsdatascience.com/customer-segmentation-arvato-bertelsmann-project-44e73210a1b7
 - Anand Kumpatla (Sr Data Scientist @ Doubleslash Software Solutions Pvt Ltd) for the very good explanation of the correlation matrix explanation and example on https://www.projectpro.io/recipes/drop-out-highly-correlated-features-in-python 
 - Aniruddha Bhandari (Author: Since February 2020 on the https://www.analyticsvidhya.com/blog/author/aniruddha/ site) for AUC-ROC Curve visual explanation and refresher on the calculation
