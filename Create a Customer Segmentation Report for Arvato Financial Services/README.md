@@ -79,12 +79,16 @@ As mentioned.
 
 ## Part 5: Conclusions: things to improve and hurdles.
 
+
+
 ## Part 6: References and Acknowledgements:
+##
 
 Luckily, the, internet is a vast place filled with resources and other people's shared knowledge- a data -learning wonderful place.
 Therefore, I have managed to compile a pretty long list of References that helped me in creating the project.
 
 ### List of References is below:
+##
 
 ### Resources: ARVATO general population data and customers data, along with training and testing data sets:
 
